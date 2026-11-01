@@ -1,0 +1,114 @@
+{
+  "id": "./",
+  "name": "CA Financial Toolkit",
+  "short_name": "CA Toolkit",
+  "description": "DSCR, IRR/XIRR, MPBF, Drawing Power, TOL/TNW, ratios, break-even, project cost, EMI, NPV and more — with workings, PDF/Excel export and offline use.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f4ef",
+  "theme_color": "#13233a",
+  "lang": "en-IN",
+  "categories": [
+    "finance",
+    "business",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "DSCR",
+      "url": "./#/c/dscr",
+      "icons": [
+        {
+          "src": "images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "EMI",
+      "url": "./#/c/emi",
+      "icons": [
+        {
+          "src": "images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Drawing Power",
+      "url": "./#/c/dp",
+      "icons": [
+        {
+          "src": "images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Saved history",
+      "url": "./#/history",
+      "icons": [
+        {
+          "src": "images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "display_override": [
+    "standalone"
+  ],
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "images/screen-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Calculator home"
+    },
+    {
+      "src": "images/screen-2.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "DSCR with workings"
+    },
+    {
+      "src": "images/screen-3.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "EMI schedule and chart"
+    },
+    {
+      "src": "images/screen-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop layout"
+    }
+  ]
+}

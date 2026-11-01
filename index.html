@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CA Financial Toolkit</title>
+  <meta name="description" content="DSCR, IRR/XIRR, MPBF, Drawing Power, TOL/TNW, ratios, break-even, project cost, EMI, NPV and more — with workings, PDF/Excel export and offline use.">
+  <meta name="theme-color" content="#13233a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="CA Toolkit">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="home">
+  <header class="topbar">
+    <button id="backBtn" class="icon-btn" aria-label="Back" hidden></button>
+    <span id="brandMark" class="brand-mark" aria-hidden="true"><img src="images/icon-192.png" alt=""></span>
+    <strong id="topTitle">CA Financial Toolkit</strong>
+    <span class="offline-pill">Offline</span>
+    <button id="installBtn" class="btn sm install" hidden></button>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="tabbar" aria-label="Main">
+    <a href="#/" data-tab="home" data-icon="home">Home</a>
+    <a href="#/history" data-tab="history" data-icon="history">History</a>
+    <a href="#/settings" data-tab="settings" data-icon="settings">Settings</a>
+  </nav>
+  <button id="peek" class="peek" type="button" aria-label="Jump to result"></button>
+  <nav id="actbar" class="actbar" aria-label="Calculation actions"></nav>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:24px">Please enable JavaScript to use CA Financial Toolkit.</p></noscript>
+
+  <script src="calcs.js"></script>
+  <script src="export.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
